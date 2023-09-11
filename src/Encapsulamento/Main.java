@@ -15,23 +15,15 @@ public class Main {
         String cpf = scan.nextLine();
         p.setCpf(cpf);
 
+        System.out.println("Qual sua naturalidade: ");
+        String naturalidade = scan.nextLine();
+        p.setNaturalidade(naturalidade);
+
         System.out.println("Qual sua Idade: ");
         int idade = scan.nextInt();
         p.setIdade(idade);
 
-        System.out.println("Qual seu naturalidade: ");
-        String naturalidade = scan.nextLine();
-        p.setNaturalidade(naturalidade);
-
-        
         p.printAll();
-        
-
-
-
-
-        
-
 
 
     }
